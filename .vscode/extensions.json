@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "blackboxapp.blackboxagent",
+        "blackboxapp.blackbox",
+        "visualstudioexptteam.intellicode-api-usage-examples",
+        "visualstudioexptteam.vscodeintellicode",
+        "p-de-jong.vscode-html-scss"
+    ]
+}
