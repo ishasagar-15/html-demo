@@ -122,9 +122,12 @@ h1 {
     gap: 80px;
     margin-bottom: 120px;
 }
-
-.about-row.reverse {
+.about-row-2 {
+    display: flex;
     flex-direction: row-reverse;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 120px;
 }
 
 .about-img img {
@@ -364,13 +367,16 @@ h1 {
 @media (max-width: 576px) {
 
     .header-section {
-        flex-direction: column;
+        flex-direction: row;
         gap: 15px;
         text-align: center;
-    }
 
+    }
+    nav{
+        display: none;
+    }
     .nav-links {
-        flex-direction: column;
+        flex-direction: ROW;
         align-items: center;
         gap: 12px;
     }
@@ -426,7 +432,14 @@ h1 {
         max-width: 100%;
         text-align: center;
     }
+    .about-row-2 {
+    display: flex;
 
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 120px;
+}
     .rooms-container,
     .services-grid,
     .testimonial-grid {
